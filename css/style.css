@@ -104,12 +104,30 @@ p{
     font-weight: 600;;
     border-radius: 5px;
     border: 2px;
+    transition: all 0.3s ease 0s;
    
 }
 .button1:hover {
     background-color: #37ab52;
     color: white;
 }
+
+.button0 {
+    width: 80px;;      ;
+    height: 23px;
+    color: white;
+    background-color: transparent;
+    font-size: 10px;
+    border-radius: 3px;
+    border: 1px solid white;
+    transition: all 0.3s ease 0s;
+   
+}
+.button0:hover {
+    background-color: #37ab52;
+    color: white;
+}
+
 .cmw-timer{
     font-size: 16
 }
