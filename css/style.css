@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.cmw-icon p{
+    margin-top:10px;
+    margin-bottom: 0;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.cmw-topbar{
+    background-color: white;
+}
+.cmwcart{
+    color: white;
+    margin-right: -16px;
+    background-color: #41cd62;
+   
+    
+}
+.cmwcart_link{
+    color: white !important;
+}
+.cmw-cart{
+    color: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    padding:13px;
+    background-color: white;
+    background-image: none;
+    box-shadow: none;
+    border-bottom: 3px solid #41cd62;
+}
+.cmw-toptopbar{
+    text-align: center;
+    color: #d7d7d7;
+    background: black;
+    padding: 4px 4px
+}
+.fb-custom{
+    padding-top: 2px;
+    float: right;
+    
+}
+.cmw-breadcrumb {
+    background-color: white;
+    border-bottom: 1px solid #e7e7e7;
+    
+}
+.prod-title{
+    font-family: 'Lato', sans-serif;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 35;
+}
+.prod-price-original{
+    font-family: 'Lato', sans-serif;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20;
+    color: #868686;
+}
+.cmw-sale{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16;
+    color:red;
+}
+.review-product{
+    float:right;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16;
+    color: #868686;
+    
+}
+.prod-price-new{
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 22;
+    
+}
+.short-description{
+    font-size:18;
+}
+.button1 {
+    width: 450px;
+    height: 100px;;
+    background-color: #41cd62;
+    color: white;
+    font-weight: 600;;
+    border-radius: 5px;
+    border: 2px;
+   
+}
+.button1:hover {
+    background-color: #37ab52;
+    color: white;
+}
+.cmw-timer{
+    font-size: 16
+}
+.sizing li a{
+    color:#3b3b3b;
+    
+}
+.cmw-counter{
+    margin-top:-15px;
+width: 112px;
+  
+  
+}
+.cmw-minusplus{
+    background-color:white;
+    height:34px;
+}
