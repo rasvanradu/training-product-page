@@ -16,7 +16,7 @@ h1{
 p{
     font-family: 'Lato', sans-serif;
     font-size: 25px;
-    font-weight: 300;
+    
 }
 .cmw-topbar{
     background-color: white;
@@ -33,6 +33,9 @@ p{
 }
 .cmw-cart{
     color: white;
+}
+.cmw-navbar{
+   margin-bottom:0px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
     padding:13px;
@@ -94,10 +97,11 @@ p{
     
 }
 .short-description{
-    font-size:18;
+    font-size:14px;
+    
 }
 .button1 {
-    width: 450px;
+    width: 470px;
     height: 100px;;
     background-color: #41cd62;
     color: white;
@@ -137,12 +141,98 @@ p{
     
 }
 .cmw-counter{
-    margin-top:-15px;
-width: 112px;
-  
-  
+   width: 112px;
+    
 }
 .cmw-minusplus{
     background-color:white;
     height:34px;
+}
+.cmw-color{
+    width: 40px;     
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+    transition: all 0.3s ease 0s;
+}
+.cmw-color:hover{
+    border: 1px solid #3f3f3f;
+    
+}
+.cmw-attributes{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;
+    
+}
+.cmw-sizing{
+    margin: 0 0 ;
+}
+.cmw-red{
+    background-color:#fe2b4b;
+}
+.cmw-blue{
+    background-color:#00615b;
+}
+.cmw-bundle-title{
+    font-size:18px;
+    text-align: center;
+}
+.cmw-bundle-image{
+    text-align: left;
+    padding: 0 0 0 0;
+    width:152px;
+    height: 152px;
+    
+    border-radius: 3px;
+    border: 2px solid #c7c7c7;
+    transition: all 0.3s ease 0s;
+    }
+/*.cmw-bundle-products input[type="checkbox"]{
+    
+    position: absolute;
+    margin-left: 5px;
+}
+.cmw-bundle-products input[type="checkbox"]:checked{
+    position: absolute;
+    margin-left: 5px;
+}*/
+
+
+.cmw-bundle-image img{
+    height: 100%;
+}
+.cmw-bundle-image:hover{
+    border: 2px solid #41cd62;
+    
+    
+}
+.cmw-bundle-products{
+    text-align: center;
+
+}
+.checkbox label{
+    margin: 0 0;
+    padding: 0 0 0 0 ;
+}
+
+.checkbox input[type=checkbox]{
+    margin-left: 10px;
+    display: none;
+}
+
+.checkbox label:before {
+  border-radius: 3px;
+    margin-left: 10px;
+}
+
+input[type=checkbox]:checked + label:before {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("/image/checked.png");
+  margin-left: 6px;
+  margin-top:6px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  content: "";
 }
