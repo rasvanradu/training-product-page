@@ -124,8 +124,9 @@ p{
    
 }
 .button0:hover {
-    background-color: #37ab52;
-    color: white;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
 }
 
 .cmw-timer{
