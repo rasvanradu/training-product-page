@@ -15,7 +15,6 @@ h1{
 
 p{
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
     
 }
 .cmw-topbar{
@@ -102,7 +101,8 @@ p{
 }
 .button1 {
     width: 470px;
-    height: 100px;;
+    height: 100px;
+    font-size: 25px;
     background-color: #41cd62;
     color: white;
     font-weight: 600;;
@@ -235,4 +235,50 @@ input[type=checkbox]:checked + label:before {
   padding-bottom: 20px;
   padding-right: 20px;
   content: "";
+}
+.cmw-icon-text{
+    
+    line-height: 95%;
+    font-size: 14px;
+    text-align: center;
+}
+.cmw-inline-icons{
+        width: 100
+}
+.cmw-icon-align{
+   
+    padding-left:22px;
+    padding-right: 22x;
+    text-align: center;
+}
+.cmw-bundle-text{
+    margin-bottom: -3px;
+    width:154px;
+    text-align: center;
+    font-size: 15px;
+}
+.cmw-bundle-text-box{
+    width:154px;
+}
+.cmw-bundle-price{
+    
+    text-align: center;
+    font-size: 15px;
+    color: #41cd62;
+    font-weight: 600;
+}
+.cmw-bundle-old-price{
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 14px;
+    color: #717171;
+    font-weight: 600;
+}
+.cmw-icons-div{
+    height: 125px;
+}
+.cmw-collection{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+     border-bottom: 2px solid #eeeeee;
 }
